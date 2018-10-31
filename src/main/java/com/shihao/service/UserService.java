@@ -9,6 +9,11 @@ public interface UserService {
      * 添加用户
      */
 	User addUsers(User user);
+	
+	/**
+     * 根据id获取用户
+     */
+	User getNameById(User user);
 
     /**
      * 全部用户列表
